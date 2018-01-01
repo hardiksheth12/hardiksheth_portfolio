@@ -1,29 +1,57 @@
-.me{
-width: 100%;
-}
-#top-page{
-  height: 1050px;
-  width: 100%;
-  margin: 0px;
+* {
+  margin: 0;
+  padding: 0;
 
+}
+body {
+  padding: 0;
+  font: 14px "Lucida Grande", Helvetica , Arial, sans-serif;
+  margin: 0;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+header{
+  background: black;
+  width: 100%;
+}
+header .highlight, header .current{
+color: White;
+font-weight: bold;
+
+}
+header nav{
+  float:right;
+  margin-top: 20px;
+}
+
+
+#top-page{
+  height: 800px;
+  width: 100%;
+  margin: none;
 /* requirement for a full background*/
-  background: url('background.jpg') no-repeat center center;
+  background: url('background.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   text-align: center;
-  padding:none;
-  background-attachment: fixed;
-  vertical-align:bottom;
 }
 
 h1{
+
   font-size: 50px;
   margin: none;
+  text-align: center;
 
 }
 h2{
+  margin-top: 20px;
   font-size: 30px;
+  margin: none;
+  text-align: center;
 
 
 }
@@ -36,5 +64,16 @@ h2{
   text-align: center;
   text-decoration: none;
   color:white;
+  margin-top: 20px;
 
+}
+
+hr{
+  width: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  border: 1px black solid;
+  text-align: center;
+  margin-top: 10px;
 }
