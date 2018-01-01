@@ -1,0 +1,40 @@
+.me{
+width: 100%;
+}
+#top-page{
+  height: 1050px;
+  width: 100%;
+  margin: 0px;
+
+/* requirement for a full background*/
+  background: url('background.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  padding:none;
+  background-attachment: fixed;
+  vertical-align:bottom;
+}
+
+h1{
+  font-size: 50px;
+  margin: none;
+
+}
+h2{
+  font-size: 30px;
+
+
+}
+.click-button{
+  font-size: 25px;
+  background: transparent;
+  border: 3px solid white;
+  border-radius: 45px;
+  width: 200px;
+  text-align: center;
+  text-decoration: none;
+  color:white;
+
+}
